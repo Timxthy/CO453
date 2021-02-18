@@ -22,6 +22,9 @@ namespace ConsoleAppProject
             Console.WriteLine();
             Console.Beep(); 
 
+            DistanceConverter converter = new DistanceConverter();
+            converter.Run();
+
             // Using an extension method for each enumeration
             Console.WriteLine("Using MyEnum Extension Method!\n");
             Console.WriteLine("MyEnum Value = " + MyEnum.FirstValue);

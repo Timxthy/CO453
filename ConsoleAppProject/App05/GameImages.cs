@@ -8,7 +8,7 @@ namespace ConsoleAppProject.App05
     /// for Rock-Paper-Scissors game
     /// </summary>
     /// <author>
-    /// Unkown ??
+    /// Timothy Arole 
     /// </author>
     public static class GameImages
     {
