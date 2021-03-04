@@ -1,7 +1,13 @@
-﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App02/BMI.cs">
+﻿<Properties StartupConfiguration="{5B3ABE26-1419-48B0-97F2-226C7DC0EDC0}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="ConsoleAppProject/App02/BMI.cs" Line="11" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/5.0.103/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
+      <File FileName="ConsoleApp.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="WebApps/Pages/Index.cshtml" Line="17" Column="36" />
+      <File FileName="ConsoleAppProject/Program.cs" Line="26" Column="56" />
+      <File FileName="WebApps/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="WebApps/wwwroot/css/site.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,15 +15,25 @@
           <Node name="ConsoleAppSolution" expanded="True">
             <Node name="ConsoleAppProject" expanded="True">
               <Node name="App01" expanded="True" />
-              <Node name="App02" expanded="True">
-                <Node name="BMI.cs" selected="True" />
-              </Node>
+              <Node name="App02" expanded="True" />
+            </Node>
+            <Node name="WebApps" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ConsoleAppSolution" expanded="True" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApps PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

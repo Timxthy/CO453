@@ -1,3 +1,12 @@
 /Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.AssemblyInfoInputs.cache
 /Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.AssemblyInfo.cs
 /Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.csproj.CoreCompileInputs.cache
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.csprojAssemblyReference.cache
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/bin/Debug/netcoreapp3.1/ConsoleAppProject.deps.json
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/bin/Debug/netcoreapp3.1/ConsoleAppProject.runtimeconfig.json
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/bin/Debug/netcoreapp3.1/ConsoleAppProject.runtimeconfig.dev.json
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/bin/Debug/netcoreapp3.1/ConsoleAppProject.dll
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/bin/Debug/netcoreapp3.1/ConsoleAppProject.pdb
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.dll
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.pdb
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.genruntimeconfig.cache

@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/timxthy/Documents/CO453-master/CO453/WebApps/WebApps.csproj": {}
+  },
+  "projects": {
+    "/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/ConsoleAppProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/ConsoleAppProject.csproj",
+        "projectName": "ConsoleAppProject",
+        "projectPath": "/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/ConsoleAppProject.csproj",
+        "packagesPath": "/Users/timxthy/.nuget/packages/",
+        "outputPath": "/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timxthy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/timxthy/Documents/CO453-master/CO453/WebApps/WebApps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timxthy/Documents/CO453-master/CO453/WebApps/WebApps.csproj",
+        "projectName": "WebApps",
+        "projectPath": "/Users/timxthy/Documents/CO453-master/CO453/WebApps/WebApps.csproj",
+        "packagesPath": "/Users/timxthy/.nuget/packages/",
+        "outputPath": "/Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timxthy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/ConsoleAppProject.csproj": {
+                "projectPath": "/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/ConsoleAppProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
