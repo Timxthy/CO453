@@ -1,4 +1,4 @@
-﻿using system;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace ConsoleAppProject.App01

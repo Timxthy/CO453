@@ -1,0 +1,3 @@
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.AssemblyInfoInputs.cache
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.AssemblyInfo.cs
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.csproj.CoreCompileInputs.cache

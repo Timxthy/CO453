@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App02/BMI.cs">
+    <Files>
+      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsoleAppSolution" expanded="True">
+            <Node name="ConsoleAppProject" expanded="True">
+              <Node name="App01" expanded="True" />
+              <Node name="App02" expanded="True">
+                <Node name="BMI.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ConsoleAppProject PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

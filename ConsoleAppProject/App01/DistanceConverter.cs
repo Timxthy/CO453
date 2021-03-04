@@ -1,4 +1,4 @@
-﻿using system;
+﻿using System;
 namespace ConsoleAppProject.App01
 {
     /// <summary>
@@ -85,7 +85,7 @@ namespace ConsoleAppProject.App01
         private void InputMiles()
         {
             Console.Write("Please enter the amount of miles > ");
-            string value = Conole.ReadLine();
+            string value = Console.ReadLine();
             miles = Convert.ToDouble(value);
 
         }
