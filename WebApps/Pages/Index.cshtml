@@ -4,7 +4,7 @@
     ViewData["Title"] = "TA's Home page";
 }
 
-<header class="text-center jumbotron">
+<header class="text-center jumbotron justify-content-center">
     <h1 class="display-4">CO453 Application Programming</h1>
     <h2> By Timothy A.</h2>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
@@ -12,10 +12,19 @@
 <section>
     <ol class="list-group">
         <li class="list-group-item">
-            <a>Distance Converter</a>
+            <a asp-controller="Home" asp-action="DistanceConverter">App01: Distance converter</a>
         </li>
         <li class="list-group-item">
-            <a> BMI Calculator</a>
+            <a asp-controller="Home" asp-action="BMICalculator">App02: BMI Calculator</a>
+        </li>
+        <li class="list-group-item">
+            <a asp-controller="Home" asp-action="App03">App03: </a>
+        </li>
+        <li class="list-group-item">
+            <a asp-controller="Home" asp-action="App04">App04: </a>
+        </li>
+        <li class="list-group-item">
+            <a asp-controller="Home" asp-action="App05">App05: </a>
         </li>
     </ol>
 

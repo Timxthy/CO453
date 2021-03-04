@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{5B3ABE26-1419-48B0-97F2-226C7DC0EDC0}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App02/BMI.cs">
     <Files>
-      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="11" Column="1" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/5.0.103/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
-      <File FileName="ConsoleApp.Tests/UnitTest1.cs" Line="1" Column="1" />
-      <File FileName="WebApps/Pages/Index.cshtml" Line="17" Column="36" />
-      <File FileName="ConsoleAppProject/Program.cs" Line="26" Column="56" />
-      <File FileName="WebApps/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="WebApps/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="WebApps/Pages/Shared/_Layout.cshtml" Line="37" Column="1" />
+      <File FileName="WebApps/Pages/Index.cshtml" Line="7" Column="60" />
+      <File FileName="WebApps/Program.cs" Line="16" Column="1" />
+      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="10" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +12,14 @@
           <Node name="ConsoleAppSolution" expanded="True">
             <Node name="ConsoleAppProject" expanded="True">
               <Node name="App01" expanded="True" />
-              <Node name="App02" expanded="True" />
+              <Node name="App02" expanded="True">
+                <Node name="BMI.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="WebApps" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
