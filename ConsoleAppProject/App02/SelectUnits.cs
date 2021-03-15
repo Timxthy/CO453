@@ -1,10 +1,9 @@
 ﻿using System;
 namespace ConsoleAppProject.App02
 {
-    public class SelectUnits
+    public enum SelectUnits
     {
-        public SelectUnits()
-        {
-        }
+        Metric,
+        Imperial
     }
 }

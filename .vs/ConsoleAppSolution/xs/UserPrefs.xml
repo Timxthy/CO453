@@ -1,28 +1,29 @@
 ﻿<Properties StartupConfiguration="{5B3ABE26-1419-48B0-97F2-226C7DC0EDC0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App01/ConsoleHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/Helpers/ConsoleHelper.cs">
     <Files>
       <File FileName="WebApps/Pages/Shared/_Layout.cshtml" Line="37" Column="1" />
       <File FileName="WebApps/Pages/Index.cshtml" Line="7" Column="60" />
       <File FileName="WebApps/Program.cs" Line="16" Column="1" />
-      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="37" Column="51" />
+      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="40" Column="51" />
       <File FileName="ConsoleAppProject/App01/DistanceUnits.cs" Line="1" Column="1" />
       <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" Line="1" Column="1" />
       <File FileName="ConsoleAppProject/App02/SelectUnits.cs" Line="8" Column="6" />
-      <File FileName="ConsoleAppProject/App01/ConsoleHelper.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App01/ConsoleHelper.cs" Line="39" Column="10" />
+      <File FileName="ConsoleAppProject/Helpers/ConsoleHelper.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsoleAppSolution" expanded="True">
             <Node name="ConsoleAppProject" expanded="True">
-              <Node name="App01" expanded="True">
-                <Node name="ConsoleHelper.cs" selected="True" />
-              </Node>
+              <Node name="App01" expanded="True" />
               <Node name="App02" expanded="True" />
               <Node name="App03" expanded="True" />
               <Node name="App04" expanded="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="ConsoleHelper.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="WebApps" expanded="True" />
           </Node>
         </State>
       </Pad>
