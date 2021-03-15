@@ -35,6 +35,11 @@ namespace ConsoleAppProject.Helpers
             return choiceNo;
         }
 
+        internal static void OutputMenu(string[] menuChoices)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// This displays all the available choices in a numbered
         /// list, starting at 1
