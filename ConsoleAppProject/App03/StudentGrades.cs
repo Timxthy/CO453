@@ -34,16 +34,7 @@ namespace ConsoleAppProject.App03
 
         public int MAXMARK { get; set; }
 
-        /// <summary>
-        /// Used by class diagram
-        /// </summary>
-        public ConsoleHelper ConsoleHelper
-        {
-            get => default;
-            set
-            {
-            }
-        }
+       
 
         /// <summary>
         /// Used by class diagram
