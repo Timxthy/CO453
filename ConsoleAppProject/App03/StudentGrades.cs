@@ -4,35 +4,121 @@ using System.ComponentModel.DataAnnotations;
 using ConsoleAppProject.Helpers;
 
 namespace ConsoleAppProject.App03
+
 {
     /// <summary>
-    /// At the moment this class just tests the
-    /// Grades enumeration names and descriptions
+    /// Application for converting marks into grades and calculating
+    /// the mean, maximum and minimum mark that were entered.
     /// </summary>
     public class StudentGrades
     {
-        public void TestGradesEnumeration()
+        // Constants (Boundaries)
+
+        public const int LOWESTMARK = 0;
+        public const int LOWESTGRADED = 40;
+        public const int LOWESTGRADEC = 50;
+        public const int LOWESTGRADEB = 60;
+        public const int LOWESTGRADEA = 70;
+        public const int HighestMark = 100;
+
+        // Properties
+        public string[] STUDENTS { get; set; }
+
+        public int[] MARKS { get; set; }
+
+        public int[] GradeProfile { get; set; }
+
+        public double MEAN { get; set; }
+
+        public int MINMARK { get; set; }
+
+        public int MAXMARK { get; set; }
+
+        /// <summary>
+        /// Used by class diagram
+        /// </summary>
+        public ConsoleHelper ConsoleHelper
         {
-            Grades grade = Grades.C;
+            get => default;
+            set
+            {
+            }
+        }
 
-            Console.WriteLine($"Grade = {grade}");
-            Console.WriteLine($"Grade No = {(int)grade}");
+        /// <summary>
+        /// Used by class diagram
+        /// </summary>
+        public Grades Grades
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
-            Console.WriteLine("\nDiscovered by Andrei!\n");
-            var gradeName = grade.GetAttribute<DisplayAttribute>().Name;
-            Console.WriteLine($"Grade Name = {gradeName}");
+        public void DisplayMenu()
+        {
+            ConsoleHelper.OutputHeading("Student Marks");
 
-            var gradeDescription = grade.GetAttribute<DescriptionAttribute>().Description;
-            Console.WriteLine($"Grade Description = {gradeDescription}");
-
-            string testDescription = EnumHelper<Grades>.GetDescription(grade);
-            string testName = EnumHelper<Grades>.GetName(grade);
-
-            Console.WriteLine();
-            Console.WriteLine("Discovered by Derek Using EnumHelper\n");
-            Console.WriteLine($"Name = {testName}");
-            Console.WriteLine($"Description = {testDescription}");
+            InputMarks();
+            OutputMarks();
+            CalculateStats();
+            OutputStats();
+            CalculateGradeProfile();
 
         }
+
+        private void OutputMarks()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void CalculateStats()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void OutputStats()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void CalculateGradeProfile()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Contains the 10 students and inputs the marks for all the students
+        /// </summary>
+        public void InputMarks()
+        {
+            int Mark;
+
+            MARKS = new int[10];
+            STUDENTS = new string[]
+            {
+                "Adrian","Anais", "Timothy",
+                "Quavious", "Jamal","Yousef",
+                "Khari", "Kiari", "Marshall",
+                "Belcalis"
+            };
+            GradeProfile = new int[(int)Grades.A + 1];
+            MARKS = new int[STUDENTS.Length];
+
+            for (int i = 0; i < STUDENTS.Length; i++)
+            {
+                Mark = (int)ConsoleHelper.InputNumber("Please enter a mark for the student " + STUDENTS[i] + " " + (i + 1) + ": ");
+
+                MARKS[i] = Mark;
+            }
+
+            Console.WriteLine("\nYou have entered the mark for the students. \n");
+        }
+
+
+
     }
+
 }
+    
