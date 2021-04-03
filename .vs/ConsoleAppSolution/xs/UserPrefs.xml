@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{5B3ABE26-1419-48B0-97F2-226C7DC0EDC0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App03/StudentGrades.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/Program.cs">
     <Files>
       <File FileName="../../../Desktop/XML - Practicals/XML 1 .xml" Line="1" Column="1" />
-      <File FileName="../../../Desktop/XML - Practicals/XSL for travel diary.xsl" Line="1" Column="1" />
+      <File FileName="../../../Desktop/XML - Practicals/XSL for travel diary.xsl" />
       <File FileName="WebApps/Pages/Shared/_Layout.cshtml" />
       <File FileName="WebApps/Pages/Index.cshtml" />
-      <File FileName="WebApps/Program.cs" Line="16" Column="1" />
+      <File FileName="WebApps/Program.cs" />
       <File FileName="ConsoleAppProject/App02/BMI.cs" />
       <File FileName="ConsoleAppProject/App01/DistanceUnits.cs" />
       <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" />
       <File FileName="ConsoleAppProject/App02/SelectUnits.cs" />
-      <File FileName="ConsoleAppProject/Helpers/ConsoleHelper.cs" Line="133" Column="53" />
-      <File FileName="ConsoleAppProject/App03/Grades.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/Helpers/ConsoleHelper.cs" />
+      <File FileName="ConsoleAppProject/App03/Grades.cs" Line="23" Column="9" />
       <File FileName="ConsoleAppProject/App03/StudentGrades.cs" Line="54" Column="26" />
-      <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App04/MessagePost.cs" />
+      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" />
+      <File FileName="ConsoleAppProject/Program.cs" Line="39" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,11 +24,10 @@
             <Node name="ConsoleAppProject" expanded="True">
               <Node name="App01" expanded="True" />
               <Node name="App02" expanded="True" />
-              <Node name="App03" expanded="True">
-                <Node name="StudentGrades.cs" selected="True" />
-              </Node>
+              <Node name="App03" expanded="True" />
               <Node name="App04" expanded="True" />
               <Node name="Helpers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="WebApps" expanded="True" />
           </Node>

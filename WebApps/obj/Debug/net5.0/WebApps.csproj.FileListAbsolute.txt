@@ -8,6 +8,8 @@
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/WebApps.pdb
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/WebApps.Views.dll
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/WebApps.Views.pdb
+/Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/ConsoleAppProject.dll
+/Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/ConsoleAppProject.pdb
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.csprojAssemblyReference.cache
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.GeneratedMSBuildEditorConfig.editorconfig
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.AssemblyInfoInputs.cache
@@ -32,10 +34,8 @@
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.RazorTargetAssemblyInfo.cache
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.RazorTargetAssemblyInfo.cs
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.Views.pdb
+/Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.csproj.CopyComplete
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.dll
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/ref/WebApps.dll
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.pdb
 /Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.genruntimeconfig.cache
-/Users/timxthy/Documents/CO453-master/CO453/WebApps/obj/Debug/net5.0/WebApps.csproj.CopyComplete
-/Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/ConsoleAppProject.dll
-/Users/timxthy/Documents/CO453-master/CO453/WebApps/bin/Debug/net5.0/ConsoleAppProject.pdb

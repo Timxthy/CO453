@@ -6,46 +6,35 @@ using ConsoleAppProject.Helpers;
 namespace ConsoleAppProject.App03
 
 {
-    /// <summary>
-    /// Application for converting marks into grades and calculating
-    /// the mean, maximum and minimum mark that were entered.
-    /// </summary>
+   
     public class StudentGrades
     {
         // Constants (Boundaries)
 
-        public const int LOWESTMARK = 0;
-        public const int LOWESTGRADED = 40;
-        public const int LOWESTGRADEC = 50;
-        public const int LOWESTGRADEB = 60;
-        public const int LOWESTGRADEA = 70;
+        public const int LowestMark = 0;
+        public const int LowestGradeD = 40;
+        public const int LowestGradeC = 50;
+        public const int LowestGradeB = 60;
+        public const int LowestGradeA = 70;
         public const int HighestMark = 100;
 
-        // Properties
-        public string[] STUDENTS { get; set; }
+       
+        public string[] Students { get; set; }
 
-        public int[] MARKS { get; set; }
+        public int[] Marks { get; set; }
 
         public int[] GradeProfile { get; set; }
 
-        public double MEAN { get; set; }
+        public double Mean { get; set; }
 
-        public int MINMARK { get; set; }
+        public int MinMark { get; set; }
 
-        public int MAXMARK { get; set; }
+        public int MaxMark { get; set; }
 
        
 
-        /// <summary>
-        /// Used by class diagram
-        /// </summary>
-        public Grades Grades
-        {
-            get => default;
-            set
-            {
-            }
-        }
+
+     
 
         public void DisplayMenu()
         {
@@ -59,14 +48,41 @@ namespace ConsoleAppProject.App03
 
         }
 
+        internal void TestGradesEnumeration()
+        {
+
+
+
+        }
+
+        private Grades ConvertToGrade(int mark)
+        {
+            
+        }
+
         private void OutputMarks()
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < Students.Length; i++)
+            {
+                Console.WriteLine($" {Students[i]} {Marks[i]}");
+            }
         }
 
         private void CalculateStats()
         {
-            throw new NotImplementedException();
+            double total = 0;
+
+            MinMark = Marks[0];
+            MaxMark = Marks[0];
+
+            foreach (int mark in Marks)
+            {
+                total = total + mark;
+                if (mark > MaxMark) MaxMark = mark;
+                if (mark < MinMark) MinMark = mark;
+            }
+
+            Mean = total / Marks.Length;
         }
 
         private void OutputStats()
@@ -86,8 +102,8 @@ namespace ConsoleAppProject.App03
         {
             int Mark;
 
-            MARKS = new int[10];
-            STUDENTS = new string[]
+            Marks = new int[10];
+            Students = new string[]
             {
                 "Adrian","Anais", "Timothy",
                 "Quavious", "Jamal","Yousef",
@@ -95,13 +111,13 @@ namespace ConsoleAppProject.App03
                 "Belcalis"
             };
             GradeProfile = new int[(int)Grades.A + 1];
-            MARKS = new int[STUDENTS.Length];
+            Marks = new int[Students.Length];
 
-            for (int i = 0; i < STUDENTS.Length; i++)
+            for (int i = 0; i < Students.Length; i++)
             {
-                Mark = (int)ConsoleHelper.InputNumber("Please enter a mark for the student " + STUDENTS[i] + " " + (i + 1) + ": ");
+                Mark = (int)ConsoleHelper.InputNumber("Please enter a mark for the student " + Students[i] + " " + (i + 1) + ": ");
 
-                MARKS[i] = Mark;
+                Marks[i] = Mark;
             }
 
             Console.WriteLine("\nYou have entered the mark for the students. \n");
