@@ -95,6 +95,9 @@ namespace ConsoleAppProject.App03
             throw new NotImplementedException();
         }
 
+
+
+        
         /// <summary>
         /// Contains the 10 students and inputs the marks for all the students
         /// </summary>
