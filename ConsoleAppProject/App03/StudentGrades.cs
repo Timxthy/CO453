@@ -48,16 +48,29 @@ namespace ConsoleAppProject.App03
 
         }
 
-        internal void TestGradesEnumeration()
+        public void InputMarks()
         {
+            int Mark;
 
+            Marks = new int[10];
+            Students = new string[]
+            {
+                "Adrian","Anais", "Timothy",
+                "Quavious", "Jamal","Yousef",
+                "Khari", "Kiari", "Marshall",
+                "Belcalis"
+            };
+            GradeProfile = new int[(int)Grades.A + 1];
+            Marks = new int[Students.Length];
 
+            for (int i = 0; i < Students.Length; i++)
+            {
+                Mark = (int)ConsoleHelper.InputNumber("Please enter a mark for the student " + Students[i] + " " + (i + 1) + ": ");
 
-        }
+                Marks[i] = Mark;
+            }
 
-        private Grades ConvertToGrade(int mark)
-        {
-            
+            Console.WriteLine("\nYou have entered the mark for the students. \n");
         }
 
         private void OutputMarks()
@@ -85,6 +98,18 @@ namespace ConsoleAppProject.App03
             Mean = total / Marks.Length;
         }
 
+
+        
+
+        private Grades ConvertToGrade(int mark)
+        {
+            
+        }
+
+        
+
+        
+
         private void OutputStats()
         {
             throw new NotImplementedException();
@@ -97,34 +122,15 @@ namespace ConsoleAppProject.App03
 
 
 
-        
-        /// <summary>
-        /// Contains the 10 students and inputs the marks for all the students
-        /// </summary>
-        public void InputMarks()
+        internal void TestGradesEnumeration()
         {
-            int Mark;
 
-            Marks = new int[10];
-            Students = new string[]
-            {
-                "Adrian","Anais", "Timothy",
-                "Quavious", "Jamal","Yousef",
-                "Khari", "Kiari", "Marshall",
-                "Belcalis"
-            };
-            GradeProfile = new int[(int)Grades.A + 1];
-            Marks = new int[Students.Length];
 
-            for (int i = 0; i < Students.Length; i++)
-            {
-                Mark = (int)ConsoleHelper.InputNumber("Please enter a mark for the student " + Students[i] + " " + (i + 1) + ": ");
 
-                Marks[i] = Mark;
-            }
-
-            Console.WriteLine("\nYou have entered the mark for the students. \n");
         }
+
+
+
 
 
 
