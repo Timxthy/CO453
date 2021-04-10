@@ -6,7 +6,7 @@ using ConsoleAppProject.Helpers;
 namespace ConsoleAppProject.App03
 
 {
-   
+
     public class StudentGrades
     {
         // Constants (Boundaries)
@@ -18,7 +18,7 @@ namespace ConsoleAppProject.App03
         public const int LowestGradeA = 70;
         public const int HighestMark = 100;
 
-       
+
         public string[] Students { get; set; }
 
         public int[] Marks { get; set; }
@@ -31,10 +31,10 @@ namespace ConsoleAppProject.App03
 
         public int MaxMark { get; set; }
 
-       
 
 
-     
+
+
 
         public void DisplayMenu()
         {
@@ -99,21 +99,30 @@ namespace ConsoleAppProject.App03
         }
 
 
-        
 
-        private Grades ConvertToGrade(int mark)
+        private void OutputStats()
+        {
+            OutputMean();
+            OutputMinimum();
+            OutputMaximum();
+        }
+
+        
+        public void OutputMean()
         {
             
         }
 
-        
-
-        
-
-        private void OutputStats()
+        private void OutputMinimum()
         {
-            throw new NotImplementedException();
+            
         }
+
+        private void OutputMaximum()
+        {
+            
+        }
+
 
         private void CalculateGradeProfile()
         {
