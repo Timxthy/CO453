@@ -1,4 +1,5 @@
 ﻿using ConsoleAppProject.App01;
+using ConsoleAppProject.App02;
 using ConsoleAppProject.App03;
 using ConsoleAppProject.Helpers;
 using System;
@@ -15,28 +16,27 @@ namespace ConsoleAppProject
     /// </summary>
     public static class Program
     {
+        private static DistanceConverter converter = new DistanceConverter();
+
+        private static BMI calculator = new BMI();
+
+        private static StudentGrades grades = new StudentGrades();
+
+       
+
+        
+
         public static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            
+
             Console.WriteLine("BNU CO453 Applications Programming 2020-2021!");
             Console.WriteLine();
+
+            string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks" };
+
+
             
-
-            DistanceConverter converter = new DistanceConverter();
-            converter.MilesToFeet();
-            converter.FeetToMiles();
-            converter.MilesToMeters();
-
-            // Using an extension method for each enumeration
-            Console.WriteLine("Using MyEnum Extension Method!\n");
-            Console.WriteLine("MyEnum Value = " + MyEnum.FirstValue);
-            Console.WriteLine("MyEnum Friendly Value = " + MyEnum.FirstValue.EnumValue());
-            Console.WriteLine();
-
-            // Using an extension method for any enumeration
-            StudentGrades grades = new StudentGrades();
-            grades.TestGradesEnumeration();
         }
     }
 }
