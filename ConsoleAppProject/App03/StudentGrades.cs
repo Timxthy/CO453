@@ -12,10 +12,15 @@ namespace ConsoleAppProject.App03
         // Constants (Boundaries)
 
         public const int LowestMark = 0;
+
         public const int LowestGradeD = 40;
+
         public const int LowestGradeC = 50;
+
         public const int LowestGradeB = 60;
+
         public const int LowestGradeA = 70;
+
         public const int HighestMark = 100;
 
 
@@ -110,17 +115,20 @@ namespace ConsoleAppProject.App03
         
         public void OutputMean()
         {
-            
+            CalculateStats();
+            Console.Write(" \nThe mean mark is " + $"{Mean}");
         }
 
         private void OutputMinimum()
         {
-            
+            CalculateStats();
+            Console.Write(" \nThe lowest Mark is " + $"{MinMark}");
         }
 
         private void OutputMaximum()
         {
-            
+            CalculateStats();
+            Console.Write(" \nThe highest Mark is " + $"{MaxMark}");
         }
 
 
