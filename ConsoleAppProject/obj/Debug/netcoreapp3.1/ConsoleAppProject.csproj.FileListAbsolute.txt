@@ -9,3 +9,4 @@
 /Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.dll
 /Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.pdb
 /Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.genruntimeconfig.cache
+/Users/timxthy/Documents/CO453-master/CO453/ConsoleAppProject/obj/Debug/netcoreapp3.1/ConsoleAppProject.csprojAssemblyReference.cache

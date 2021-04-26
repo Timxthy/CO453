@@ -30,6 +30,8 @@ namespace ConsoleAppProject.App03
 
         public int[] GradeProfile { get; set; }
 
+        public char[] Grades { get; set; }
+
         public double Mean { get; set; }
 
         public int MinMark { get; set; }
@@ -65,7 +67,7 @@ namespace ConsoleAppProject.App03
                 "Khari", "Kiari", "Marshall",
                 "Belcalis"
             };
-            GradeProfile = new int[(int)Grades.A + 1];
+            
             Marks = new int[Students.Length];
 
             for (int i = 0; i < Students.Length; i++)
@@ -134,7 +136,23 @@ namespace ConsoleAppProject.App03
 
         private void CalculateGradeProfile()
         {
-            throw new NotImplementedException();
+            for(int i = 0; i < 10; i++)
+            {
+                if (Marks[i] < 40)
+                    Grades[i] = 'F';
+                else if (Marks[i] < 50)
+                    Grades[i] = 'D';
+                else if (Marks[i] < 60)
+                    Grades[i] = 'C';
+                else if (Marks[i] < 70)
+                    Grades[i] = 'B';
+                else if (Marks[i] < 100)
+                    Grades[i] = 'A';
+
+                        
+
+            }
+
         }
 
 

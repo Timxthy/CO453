@@ -28,15 +28,50 @@ namespace ConsoleAppProject
 
         public static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            
 
             Console.WriteLine("BNU CO453 Applications Programming 2020-2021!");
             Console.WriteLine();
 
-            string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks" };
+           
+            
 
+
+
+            /// Output Menu options to screen
+            /// Ask the user for a menu choice (text)
+            /// read inputted menu choice
+            /// Test - if input = distance converter then execute else if = bmi calculator execute bmi else
+
+            Console.ReadLine();
+
+
+            string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks" };
+            int choiceNo = ConsoleHelper.MakeChoice(choices);
 
             
+
+            if (choiceNo == 1)
+            {
+                
+            }
+            else if (choiceNo == 2)
+            {
+                
+            }
+            else if (choiceNo == 3)
+            {
+                
+            }
+            else if (choiceNo == 4)
+            {
+                
+            }
+            else Console.WriteLine("Invalid Choice !");
         }
+
+        
     }
 }
+
+

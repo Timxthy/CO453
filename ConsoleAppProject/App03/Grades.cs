@@ -9,7 +9,7 @@ namespace ConsoleAppProject.App03
     /// Grade D is Third Class   : 40 - 49
     /// Grade F is Fail          :  0 - 39
     /// </summary>
-    public enum Grades
+    public enum GradesEnum
     {
         
         [Description("Fail")]
