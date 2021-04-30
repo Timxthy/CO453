@@ -37,31 +37,28 @@ namespace ConsoleAppProject
             
 
 
-
-            /// Output Menu options to screen
-            /// Ask the user for a menu choice (text)
-            /// read inputted menu choice
-            /// Test - if input = distance converter then execute else if = bmi calculator execute bmi else
-
-            Console.ReadLine();
-
-
             string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks" };
             int choiceNo = ConsoleHelper.MakeChoice(choices);
+           
 
-            
+            ///Class name - Object name(think of one: unique) = new class name ();
+            ///
+
 
             if (choiceNo == 1)
             {
-                
+                DistanceConverter converter = new DistanceConverter();
+                converter.run();
             }
             else if (choiceNo == 2)
             {
-                
+                BMI bmi = new BMI();
+                bmi.run();
             }
             else if (choiceNo == 3)
             {
-                
+                StudentGrades sg = new StudentGrades();
+                sg.run();
             }
             else if (choiceNo == 4)
             {

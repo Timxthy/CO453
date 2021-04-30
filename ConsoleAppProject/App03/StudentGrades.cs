@@ -40,6 +40,15 @@ namespace ConsoleAppProject.App03
 
 
 
+        /// <summary>
+        /// run method
+        /// </summary>
+        public void run()
+        {
+            DisplayMenu();
+        }
+
+
 
 
 

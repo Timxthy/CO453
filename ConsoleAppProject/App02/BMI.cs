@@ -33,6 +33,23 @@ namespace ConsoleAppProject.App02
         public const double OBESEWEIGHT2 = 39.9;
         public const double OBESEWEIGHT3 = 40.0;
 
+
+        ///run method
+        ///
+
+        public void run()
+        {
+            GetUnit();
+            OutputUnit();
+            GetWeight();
+            GetWeight();
+            CalculateBMI();
+            IndexCaluclate();
+            OutputResult();
+            PrintHeading();
+        }
+
+
         public string GetUnit()
         {
             SelectedUnit = Console.ReadLine().ToUpper();

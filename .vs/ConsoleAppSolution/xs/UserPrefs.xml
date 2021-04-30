@@ -1,29 +1,22 @@
 ﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App04/PhotoPost.cs">
     <Files>
-      <File FileName="WebApps/Pages/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="WebApps/Pages/Index.cshtml" />
-      <File FileName="ConsoleAppProject/Helpers/ConsoleHelper.cs" Line="18" Column="1" />
-      <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="17" Column="9" />
       <File FileName="ConsoleAppProject/App04/NewsFeed.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/Program.cs" Line="57" Column="14" />
-      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" Line="31" Column="49" />
-      <File FileName="ConsoleAppProject/App03/StudentGrades.cs" Line="70" Column="13" />
-      <File FileName="ConsoleAppProject/App03/Grades.cs" Line="13" Column="6" />
-      <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" Line="15" Column="35" />
-      <File FileName="ConsoleAppProject/App01/DistanceUnits.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App04/Post.cs" Line="12" Column="40" />
+      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" Line="23" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsoleAppSolution" expanded="True">
             <Node name="ConsoleAppProject" expanded="True">
-              <Node name="App01" expanded="True" />
               <Node name="App02" expanded="True" />
               <Node name="App03" expanded="True" />
-              <Node name="App04" expanded="True" />
+              <Node name="App04" expanded="True">
+                <Node name="PhotoPost.cs" selected="True" />
+              </Node>
               <Node name="Helpers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="WebApps" expanded="True">
               <Node name="Pages" expanded="True">

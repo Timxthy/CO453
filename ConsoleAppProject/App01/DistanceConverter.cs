@@ -12,6 +12,10 @@ namespace ConsoleAppProject.App01
         /// 
         ///</summary>
 
+
+     
+    
+
     public class DistanceConverter
     {
 
@@ -26,11 +30,17 @@ namespace ConsoleAppProject.App01
         private double meters;
 
 
-        
 
 
-       
-        
+        public void run()
+        {
+            MilesToFeet();
+            FeetToMiles();
+            MilesToMeters();
+
+        }
+
+
         public void MilesToFeet()
         {
             OutputHeading();
