@@ -1,6 +1,7 @@
 ﻿using ConsoleAppProject.App01;
 using ConsoleAppProject.App02;
 using ConsoleAppProject.App03;
+using ConsoleAppProject.App04;
 using ConsoleAppProject.Helpers;
 using System;
 
@@ -62,7 +63,8 @@ namespace ConsoleAppProject
             }
             else if (choiceNo == 4)
             {
-                
+                NetworkApp myspace = new NetworkApp();
+                myspace.DisplayMenu();
             }
             else Console.WriteLine("Invalid Choice !");
         }

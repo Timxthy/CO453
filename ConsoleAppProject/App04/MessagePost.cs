@@ -41,11 +41,8 @@ namespace ConsoleAppProject.App04
             
         }
 
-        
-
-
-
-
-        
+        public MessagePost(string author) : base(author)
+        {
+        }
     }
 }
