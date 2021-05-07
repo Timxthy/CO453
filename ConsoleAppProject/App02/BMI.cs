@@ -35,7 +35,7 @@ namespace ConsoleAppProject.App02
 
 
         /// <summary>
-        /// attempt but i dont really think a display menu is needed for a 
+        /// attempt but i dont really think a display menu is needed for a BMI
         /// </summary>
 
         public void DisplayMenu()
