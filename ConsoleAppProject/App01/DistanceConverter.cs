@@ -1,4 +1,6 @@
 ﻿using System;
+using ConsoleAppProject.Helpers;
+
 namespace ConsoleAppProject.App01
 {
     /// <summary>
@@ -31,19 +33,36 @@ namespace ConsoleAppProject.App01
 
 
 
+    public void DisplayMenu()
+    {
+            OutputHeading();
 
-        public void run()
-        {
-            MilesToFeet();
-            FeetToMiles();
-            MilesToMeters();
+        string[] choices = { "MilesToFeet", "FeetToMiles", "MilesToMeters", };
+        int choiceNo = ConsoleHelper.MakeChoice(choices);
 
-        }
+            if (choiceNo == 1)
+            {
+                MilesToFeet();
+
+            }
+            else if (choiceNo == 2)
+            {
+                FeetToMiles();
+            }
+            else if (choiceNo == 3)
+            {
+                MilesToMeters();
+            }
+               
+    }
+
+
+       
 
 
         public void MilesToFeet()
         {
-            OutputHeading();
+           
             Console.WriteLine("Converting Miles to Feet.");
             Console.WriteLine();
             InputMiles();
@@ -54,7 +73,7 @@ namespace ConsoleAppProject.App01
 
         public void FeetToMiles()
         {
-            OutputHeading();
+           
             Console.WriteLine("Converting Feet to Miles.");
             Console.WriteLine();
             InputFeet();
@@ -65,7 +84,7 @@ namespace ConsoleAppProject.App01
 
         public void MilesToMeters()
         {
-            OutputHeading();
+          
             Console.WriteLine("Converting Miles to Meters.");
             Console.WriteLine();
             InputMiles();

@@ -46,7 +46,7 @@ namespace ConsoleAppProject.App04
         }
 
 
-        
+
 
         ///<summary>
         /// Display the details of this post.
@@ -54,35 +54,16 @@ namespace ConsoleAppProject.App04
         /// (Currently: Print to the text terminal. This is simulating display 
         /// in a web browser for now.)
         ///</summary>
-        public void Display()
+        public override void Display()
         {
-            Console.WriteLine();
-            Console.WriteLine($"    Author: {Username}");
+            Console.WriteLine(" PhotoPost Display Method");
             Console.WriteLine($"    Filename: [{Filename}]");
             Console.WriteLine($"    Caption: {Caption}");
-            Console.WriteLine($"    Time Elpased: {FormatElapsedTime(Timestamp)}");
-            Console.WriteLine();
 
-            if (likes > 0)
-            {
-                Console.WriteLine($"    Likes: -  {likes}  people like this.");
-            }
-            else
-            {
-                Console.WriteLine();
-            }
-
-            if (comments.Count == 0)
-            {
-                Console.WriteLine("    No comments.");
-            }
-            else
-            {
-                Console.WriteLine($"    Comment(s): {comments.Count}  Click here to view.");
-            }
+            base.Display();
         }
 
 
-       
+
     }
 }

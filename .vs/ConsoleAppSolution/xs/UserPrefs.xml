@@ -1,24 +1,35 @@
 ﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App04/NetworkApp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/Program.cs">
     <Files>
-      <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="35" Column="23" />
-      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" Line="16" Column="18" />
-      <File FileName="ConsoleAppProject/App04/Post.cs" Line="15" Column="1" />
-      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" Line="2" Column="1" />
-      <File FileName="ConsoleAppProject/App04/NetworkApp.cs" Line="34" Column="1" />
-      <File FileName="ConsoleAppProject/Program.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="22" Column="1" />
+      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" />
+      <File FileName="ConsoleAppProject/App04/Post.cs" Line="12" Column="1" />
+      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App04/NetworkApp.cs" Line="1" Column="1" />
+      <File FileName="../../../Desktop/XML - Practicals/TravelDiary.xml" />
+      <File FileName="../../../Desktop/XML - Practicals/TravelDiary.xsd" />
+      <File FileName="../../../Desktop/XML - Practicals/TravelDiary.xsl" />
+      <File FileName="../../../Desktop/XML - Practicals/TravelDiary.XSLT" />
+      <File FileName="ConsoleAppProject/App03/Grades.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App03/StudentGrades.cs" Line="69" Column="22" />
+      <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" Line="48" Column="31" />
+      <File FileName="ConsoleAppProject/App01/DistanceUnits.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App05/GameImages.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App02/SelectUnits.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/Program.cs" Line="51" Column="17" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsoleAppSolution" expanded="True">
             <Node name="ConsoleAppProject" expanded="True">
+              <Node name="App01" expanded="True" />
               <Node name="App02" expanded="True" />
               <Node name="App03" expanded="True" />
-              <Node name="App04" expanded="True">
-                <Node name="NetworkApp.cs" selected="True" />
-              </Node>
+              <Node name="App05" expanded="True" />
               <Node name="Helpers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="WebApps" expanded="True">
               <Node name="Pages" expanded="True">
@@ -26,6 +37,11 @@
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ConsoleAppSolution" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

@@ -20,7 +20,6 @@ namespace ConsoleAppProject.App04
         // an arbitrarily long, multi-line message
         public String Message { get; }
 
-        public DateTime Timestamp { get; }
 
         /// <summary>
         /// Constructor for objects of class MessagePost.
@@ -41,8 +40,12 @@ namespace ConsoleAppProject.App04
             
         }
 
-        public MessagePost(string author) : base(author)
+        public override void Display()
         {
+            Console.WriteLine(" MessagePost Display Method");
+            Console.WriteLine($"   Message: {Message}");
+
+            base.Display();
         }
     }
 }

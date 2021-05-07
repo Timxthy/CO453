@@ -34,20 +34,36 @@ namespace ConsoleAppProject.App02
         public const double OBESEWEIGHT3 = 40.0;
 
 
-        ///run method
-        ///
+        /// <summary>
+        /// attempt but i dont really think a display menu is needed for a 
+        /// </summary>
 
-        public void run()
+        public void DisplayMenu()
         {
+            PrintHeading();
             GetUnit();
             OutputUnit();
             GetWeight();
-            GetWeight();
-            CalculateBMI();
-            IndexCaluclate();
+            GetHeight();
+
+            string[] choices = { "MilesToFeet", "FeetToMiles", "MilesToMeters", };
+            int choiceNo = ConsoleHelper.MakeChoice(choices);
+
+            if (choiceNo == 1)
+            {
+                CalculateBMI();
+
+            }
+            else if (choiceNo == 2)
+            {
+                IndexCaluclate();
+            }
+
             OutputResult();
-            PrintHeading();
+
         }
+
+        
 
 
         public string GetUnit()

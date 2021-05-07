@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ConsoleAppProject.App04
 {
     public class Post
@@ -58,11 +60,15 @@ namespace ConsoleAppProject.App04
         /// (Currently: Print to the text terminal. This is simulating display 
         /// in a web browser for now.)
         ///</summary>
-        public void Display()
+        public virtual void Display()
         {
+
+            Console.WriteLine(" Post Display Method");
+
+            Console.WriteLine();
+
             Console.WriteLine();
             Console.WriteLine($"    Author: {Username}");
-            Console.WriteLine($"    Message: {Message}");
             Console.WriteLine($"    Time Elpased: {FormatElapsedTime(Timestamp)}");
             Console.WriteLine();
 
@@ -83,7 +89,19 @@ namespace ConsoleAppProject.App04
             {
                 Console.WriteLine($"    {comments.Count}  comment(s). Click here to view.");
             }
+
         }
+
+
+
+
+        
+
+
+
+
+
+        
 
         ///<summary>
         /// Create a string describing a time point in the past in terms 

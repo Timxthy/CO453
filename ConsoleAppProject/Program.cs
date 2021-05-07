@@ -23,53 +23,66 @@ namespace ConsoleAppProject
 
         private static StudentGrades grades = new StudentGrades();
 
-       
 
-        
+
+
 
         public static void Main(string[] args)
         {
-            
 
+            Console.Clear();
             Console.WriteLine("BNU CO453 Applications Programming 2020-2021!");
             Console.WriteLine();
 
-           
-            
 
 
-            string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks" };
-            int choiceNo = ConsoleHelper.MakeChoice(choices);
-           
+            ///Experiemnt with menu for app 1
+
+
+
 
             ///Class name - Object name(think of one: unique) = new class name ();
             ///
 
+            int choiceNo;
 
-            if (choiceNo == 1)
+            do
             {
-                DistanceConverter converter = new DistanceConverter();
-                converter.run();
+                string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks", "NetworkApp", "MONO", "Quit" };
+                choiceNo = ConsoleHelper.MakeChoice(choices);
+
+                if (choiceNo == 1)
+                {
+                    DistanceConverter converter = new DistanceConverter();
+                    converter.DisplayMenu();
+                }
+                else if (choiceNo == 2)
+                {
+                    BMI bmi = new BMI();
+                    bmi.DisplayMenu();
+                }
+                else if (choiceNo == 3)
+                {
+                    StudentGrades sg = new StudentGrades();
+                    sg.run();
+                }
+                else if (choiceNo == 4)
+                {
+                    NetworkApp myspace = new NetworkApp();
+                    myspace.DisplayMenu();
+                }
+                else if (choiceNo == 5)
+                {
+                }
+                else if (choiceNo == 6)
+                {
+                    Console.WriteLine("Exiting the Apllication");
+                }
+
+                else Console.WriteLine("Invalid Choice !");
             }
-            else if (choiceNo == 2)
-            {
-                BMI bmi = new BMI();
-                bmi.run();
-            }
-            else if (choiceNo == 3)
-            {
-                StudentGrades sg = new StudentGrades();
-                sg.run();
-            }
-            else if (choiceNo == 4)
-            {
-                NetworkApp myspace = new NetworkApp();
-                myspace.DisplayMenu();
-            }
-            else Console.WriteLine("Invalid Choice !");
+            while (choiceNo != 6);
         }
-
-        
     }
 }
 
