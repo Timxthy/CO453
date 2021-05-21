@@ -10,13 +10,13 @@ namespace ConsoleAppProject.App01
     /// Timothy Arole version 0.1
     /// </author>
 
-        ///<summary>
-        /// 
-        ///</summary>
+    ///<summary>
+    /// 
+    ///</summary>
 
 
-     
-    
+
+
 
     public class DistanceConverter
     {
@@ -25,12 +25,12 @@ namespace ConsoleAppProject.App01
 
         public const double METERS_IN_MILES = 1609.34;
 
-        private double miles;
+        public double miles { get; set; }
 
-        private double feet;
+        public double feet { get; set; }
 
-        private double meters;
-
+        public double meters { get; set; }
+    
 
 
     public void DisplayMenu()
@@ -65,7 +65,7 @@ namespace ConsoleAppProject.App01
            
             Console.WriteLine("Converting Miles to Feet.");
             Console.WriteLine();
-            InputMiles();
+            ///Input value
             CalculateFeet();
             OutputFeet();
 
@@ -76,7 +76,7 @@ namespace ConsoleAppProject.App01
            
             Console.WriteLine("Converting Feet to Miles.");
             Console.WriteLine();
-            InputFeet();
+           ///input value
             CalculateMiles();
             OutputMiles();
 
@@ -144,7 +144,7 @@ namespace ConsoleAppProject.App01
         ///<summary>
         ///  Outputs Feet
         ///</summary>
-        private void OutputFeet()
+        public void OutputFeet()
         {
             Console.WriteLine(miles + "miles is" + feet + "feet.");
 
@@ -153,7 +153,7 @@ namespace ConsoleAppProject.App01
         ///<summary>
         ///  Outputs Miles
         ///</summary>
-        private void OutputMiles()
+        public void OutputMiles()
         {
             Console.WriteLine(feet + "feet is" + miles + "miles.");
 
@@ -162,7 +162,7 @@ namespace ConsoleAppProject.App01
         ///<summary>
         /// Outputs Meters
         ///</summary>
-        private void OutputMeters()
+        public void OutputMeters()
         {
             Console.WriteLine(miles + "miles is" + meters + "meters.");
 
@@ -172,7 +172,7 @@ namespace ConsoleAppProject.App01
         ///<summary>
         /// Calculates Miles
         ///</summary>
-        private void CalculateMiles()
+        public void CalculateMiles()
         {
             miles = feet / FEET_IN_MILES;
         }
@@ -181,7 +181,7 @@ namespace ConsoleAppProject.App01
         ///<summary>
         /// Calculates Feet
         ///</summary>
-        private void CalculateFeet()
+        public void CalculateFeet()
         {
             feet = miles * 5280; 
         }
@@ -189,7 +189,7 @@ namespace ConsoleAppProject.App01
         ///<summary>
         /// Calculates Meters 
         ///</summary>
-        private void CalculateMeters()
+        public void CalculateMeters()
         {
             meters = miles * METERS_IN_MILES;
         }
