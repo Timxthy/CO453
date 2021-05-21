@@ -5,6 +5,7 @@ namespace ConsoleApp.UnitTest
     {
         public UnitTest2()
         {
+
         }
     }
 }

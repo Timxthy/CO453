@@ -50,7 +50,11 @@ namespace ConsoleAppProject.App03
 
 
 
-
+        /// <summary>
+        /// provide the input
+        ///- [Calculate methods]
+        /// and check that the values given are correct
+        /// </summary>
 
         public void DisplayMenu()
         {

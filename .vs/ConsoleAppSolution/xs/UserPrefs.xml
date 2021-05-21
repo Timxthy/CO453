@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App03/StudentGrades.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/Program.cs">
     <Files>
       <File FileName="ConsoleApp.UnitTest/UnitTest1.cs" Line="27" Column="8" />
-      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="20" Column="9" />
-      <File FileName="ConsoleApp.UnitTest/UnitTest2.cs" Line="8" Column="1" />
-      <File FileName="ConsoleApp.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App02/BMI.cs" />
+      <File FileName="ConsoleApp.UnitTest/UnitTest2.cs" />
+      <File FileName="ConsoleApp.Tests/UnitTest1.cs" />
       <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/NetworkApp.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/Post.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App05/GameImages.cs" Line="1" Column="1" />
+      <File FileName="ConsoleAppProject/App04/NetworkApp.cs" />
+      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" />
+      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" />
+      <File FileName="ConsoleAppProject/App04/Post.cs" />
+      <File FileName="ConsoleAppProject/App05/GameImages.cs" />
       <File FileName="ConsoleAppProject/Program.cs" Line="62" Column="36" NotebookId="1" />
-      <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" Line="79" Column="26" NotebookId="1" />
-      <File FileName="ConsoleAppProject/App03/Grades.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="ConsoleAppProject/App03/StudentGrades.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" NotebookId="1" />
+      <File FileName="ConsoleAppProject/App03/Grades.cs" NotebookId="1" />
+      <File FileName="ConsoleAppProject/App03/StudentGrades.cs" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,12 +25,11 @@
             <Node name="ConsoleAppProject" expanded="True">
               <Node name="App01" expanded="True" />
               <Node name="App02" expanded="True" />
-              <Node name="App03" expanded="True">
-                <Node name="StudentGrades.cs" selected="True" />
-              </Node>
+              <Node name="App03" expanded="True" />
               <Node name="App04" expanded="True" />
               <Node name="App05" expanded="True" />
               <Node name="Helpers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="WebApps" expanded="True">
               <Node name="Pages" expanded="True">
@@ -42,11 +41,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="ConsoleAppSolution" expanded="True">
-            <Node name="ConsoleApp.UnitTest" expanded="True">
-              <Node name="ConsoleApp.UnitTest" selected="True" />
-            </Node>
-          </Node>
+          <Node name="ConsoleAppSolution" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
