@@ -1,10 +1,19 @@
 ﻿using System;
+using ConsoleAppProject.App02;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace ConsoleApp.UnitTest
 {
-    public class UnitTest2
+    [TestClass]
+    public class TestBMI
     {
-        public UnitTest2()
+        BMI bmi = new BMI();
+
+        [TestMethod]
+        public void UnitTest2()
         {
+            bmi.
+
 
         }
     }

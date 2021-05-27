@@ -46,7 +46,7 @@ namespace ConsoleAppProject.App02
             GetWeight();
             GetHeight();
 
-            string[] choices = { "MilesToFeet", "FeetToMiles", "MilesToMeters", };
+            string[] choices = { "1", "2", "----", };
             int choiceNo = ConsoleHelper.MakeChoice(choices);
 
             if (choiceNo == 1)

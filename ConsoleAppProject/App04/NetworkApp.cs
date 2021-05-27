@@ -5,6 +5,10 @@ namespace ConsoleAppProject.App04
 {
     public class NetworkApp
     {
+        NewsFeed feed = new NewsFeed();
+        
+
+
         public void DisplayMenu()
         {
             ConsoleHelper.OutputHeading(" Timothy's Space");
@@ -34,17 +38,24 @@ namespace ConsoleAppProject.App04
 
         private void DisplayAll()
         {
-            throw new NotImplementedException();
+            feed.Display();
+
         }
 
         private void PostPhoto()
         {
-            throw new NotImplementedException();
+            ///Get user to type this information
+            PhotoPost photoPost = new PhotoPost("Timothy", "Photo.jpg", "Brooklyn Nets 2021 CHAMPS!");
+            feed.AddPhotoPost(photoPost);
+
+
         }
 
         private void PostMessage()
         {
-            throw new NotImplementedException();
+            ///User to enter information - placeholder for now
+            MessagePost post = new MessagePost("Timothy", "Brooklyn Nets 2021!");
+            feed.AddMessagePost(post);
         }
     }
 

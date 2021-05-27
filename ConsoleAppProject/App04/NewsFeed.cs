@@ -37,6 +37,8 @@ namespace ConsoleAppProject.App04
             AddPhotoPost(photoPost);
         }
 
+        
+
 
         ///<summary>
         /// Add a text post to the news feed.
