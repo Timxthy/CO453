@@ -44,8 +44,18 @@ namespace ConsoleAppProject.App04
 
         private void PostPhoto()
         {
+            Console.WriteLine("Please write your username.");
+            string author = Console.ReadLine();
+
+            Console.WriteLine("Please add a file loaction for your image");
+            string pPost = Console.ReadLine();
+
+            Console.WriteLine("Please add a caption for your image");
+            string caption = Console.ReadLine();
+
+
             ///Get user to type this information
-            PhotoPost photoPost = new PhotoPost("Timothy", "Photo.jpg", "Brooklyn Nets 2021 CHAMPS!");
+            PhotoPost photoPost = new PhotoPost(author, pPost, caption);
             feed.AddPhotoPost(photoPost);
 
 
@@ -53,8 +63,15 @@ namespace ConsoleAppProject.App04
 
         private void PostMessage()
         {
+            Console.WriteLine("Please write your username.");
+            string author = Console.ReadLine();
+
+            Console.WriteLine("Please type your comment");
+            string comment = Console.ReadLine();
+
+
             ///User to enter information - placeholder for now
-            MessagePost post = new MessagePost("Timothy", "Brooklyn Nets 2021!");
+            MessagePost post = new MessagePost(author, comment);
             feed.AddMessagePost(post);
         }
     }

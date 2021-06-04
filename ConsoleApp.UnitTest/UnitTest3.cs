@@ -20,14 +20,7 @@ namespace ConsoleApp.UnitTest
 
         }
 
-        [TestMethod]
         
-
-
-            
-        
-
-        [TestMethod]
         
 
     }

@@ -2,6 +2,7 @@
 using ConsoleAppProject.App02;
 using ConsoleAppProject.App03;
 using ConsoleAppProject.App04;
+using ConsoleAppProject.App06;
 using ConsoleAppProject.Helpers;
 using System;
 
@@ -48,7 +49,7 @@ namespace ConsoleAppProject
 
             do
             {
-                string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks", "NetworkApp", "MONO", "Quit" };
+                string[] choices = { "Distance Converter", "BMI Calculator", "Student Marks", "NetworkApp", "RPS - Game", "Quit" };
                 choiceNo = ConsoleHelper.MakeChoice(choices);
 
                 if (choiceNo == 1)
@@ -73,6 +74,8 @@ namespace ConsoleAppProject
                 }
                 else if (choiceNo == 5)
                 {
+                    GameView game = new GameView();
+                    game.StartGame();
                 }
                 else if (choiceNo == 6)
                 {

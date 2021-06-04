@@ -1,34 +1,30 @@
 ﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleApp.UnitTest/UnitTest3.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App06/GameView.cs">
     <Files>
-      <File FileName="ConsoleAppProject/App04/NewsFeed.cs" Line="33" Column="79" />
-      <File FileName="ConsoleAppProject/App04/NetworkApp.cs" Line="51" Column="1" />
-      <File FileName="ConsoleAppProject/App04/PhotoPost.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/MessagePost.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App04/Post.cs" Line="24" Column="43" />
-      <File FileName="ConsoleApp.UnitTest/UnitTest2.cs" Line="15" Column="17" />
-      <File FileName="ConsoleAppProject/App03/Grades.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App03/StudentGrades.cs" Line="161" Column="1" />
-      <File FileName="ConsoleAppProject/App01/DistanceConverter.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="ConsoleAppProject/App02/BMI.cs" Line="44" Column="23" NotebookId="1" />
-      <File FileName="ConsoleApp.UnitTest/UnitTest1.cs" Line="53" Column="1" NotebookId="1" />
-      <File FileName="ConsoleAppProject/Program.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="ConsoleApp.UnitTest/UnitTest1 (copy).cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="ConsoleApp.UnitTest/UnitTest2.cs" Line="15" Column="12" />
+      <File FileName="ConsoleAppProject/App06/GameView.cs" Line="37" Column="1" />
+      <File FileName="ConsoleAppProject/App06/GameImages.cs" />
+      <File FileName="ConsoleAppProject/App06/Game.cs" Line="77" Column="32" />
+      <File FileName="ConsoleAppProject/Program.cs" Line="78" Column="38" />
+      <File FileName="ConsoleApp.UnitTest/UnitTest3.cs" Line="23" Column="9" NotebookId="1" IsPinned="True" />
+      <File FileName="ConsoleAppProject/App06/GameChoice.cs" Line="9" Column="13" NotebookId="1" />
+      <File FileName="ConsoleAppProject/App06/Player.cs" Line="23" Column="41" NotebookId="1" />
+      <File FileName="ConsoleApp.UnitTest/UnitTest3 (copy).cs" Line="47" Column="22" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsoleAppSolution" expanded="True">
-            <Node name="ConsoleApp.UnitTest" expanded="True">
-              <Node name="UnitTest3.cs" selected="True" />
-            </Node>
+            <Node name="ConsoleApp.UnitTest" expanded="True" />
             <Node name="ConsoleAppProject" expanded="True">
               <Node name="App01" expanded="True" />
               <Node name="App02" expanded="True" />
               <Node name="App03" expanded="True" />
               <Node name="App04" expanded="True" />
               <Node name="App05" expanded="True" />
-              <Node name="App06" expanded="True" />
+              <Node name="App06" expanded="True">
+                <Node name="GameView.cs" selected="True" />
+              </Node>
               <Node name="Helpers" expanded="True" />
             </Node>
             <Node name="WebApps" expanded="True">
@@ -44,9 +40,10 @@
           <Node name="ConsoleAppSolution" expanded="True">
             <Node name="ConsoleApp.UnitTest" expanded="True">
               <Node name="ConsoleApp.UnitTest" expanded="True">
-                <Node name="TestDistanceConverter" expanded="True">
-                  <Node name="TestMilestoMeters" selected="True" />
+                <Node name="RPS_GameTests" expanded="True">
+                  <Node name="TestComputerChoiceIsRandom" selected="True" />
                 </Node>
+                <Node name="TestDistanceConverter" expanded="True" />
               </Node>
             </Node>
           </Node>

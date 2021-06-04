@@ -12,7 +12,7 @@ namespace ConsoleApp.UnitTest
         [TestMethod]
         public void UnitTest2()
         {
-            bmi.
+           
 
 
         }
