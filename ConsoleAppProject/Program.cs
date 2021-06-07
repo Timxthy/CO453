@@ -75,7 +75,7 @@ namespace ConsoleAppProject
                 else if (choiceNo == 5)
                 {
                     GameView game = new GameView();
-                    game.StartGame();
+                    game.PlayGame();
                 }
                 else if (choiceNo == 6)
                 {

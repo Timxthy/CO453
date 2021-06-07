@@ -8,13 +8,15 @@ namespace ConsoleAppProject.App06
         private Game game;
 
 
+
+
         public void StartGame()
         {
             SetUpConsole();
 
             ConsoleHelper.OutputHeading("   Rock, Paper Scissors Game");
 
-            if(game == null)
+            if (game == null)
             {
                 Console.Write("Please enter your name!");
 
@@ -23,54 +25,134 @@ namespace ConsoleAppProject.App06
                 game = new Game("T");
             }
 
-           game.Start();
+            game.Start();
 
         }
 
         public void PlayGame()
         {
+            bool wantToQuit = false;
+
+            do
+            {
+                StartGame();
+
+                GetPlayerChoice();
+                DisplayChoice(game.Human.Choice);
+
+                game.MakeComputerChoice();
+                ShowComputerChoice(game.Computer.Choice);
+
+                game.ScoreRound();
+
+                if (game.Round == game.LastRound)
+                {
+                    Console.WriteLine();
+
+                    ShowWinner();
+
+                }
+            } while (!wantToQuit);
 
         }
 
         private void SetUpConsole()
         {
-            Console.SetWindowSize(100, 40);
-            Console.SetBufferSize(100, 40);
+            /// Console.SetWindowSize(100, 40);
+            /// Console.SetBufferSize(100, 40);
 
             Console.BackgroundColor = ConsoleColor.DarkMagenta;
-                Console.Clear();
+            Console.Clear();
         }
 
-        
+        public void DisplayChoice(GameChoice choice)
+        {
+            if (choice == GameChoice.Scissors)
+            {
+                GameImages.DrawScissors(10, 10);
+            }
+            else if (choice == GameChoice.Rock)
+            {
+                GameImages.DrawRock(10, 10);
+            }
+            else if (choice == GameChoice.Paper)
+            {
+                GameImages.DrawPaper(10, 10);
+            }
+
+        }
 
         public void GetPlayerChoice()
         {
+            Console.WriteLine("Please eneter your choice!");
+            /// string stores text - and read line stores from keyboard
+            string choice = Console.ReadLine();
+
+            if (choice == "scissors")
+            {
+                game.PlayerChoice = GameChoice.Scissors;
+            }
+            else if (choice == "rock")
+            {
+
+            }
+            else if (choice == "paper")
+            {
+
+            }
+
+
 
         }
 
-        public void ShowComputerChoice()
+        /// <summary>
+        /// to alternate location of oppenent choice
+        /// </summary>
+        public void ShowComputerChoice(GamePlayer Computer, GameChoice choice)
         {
-
+            if (choice == GameChoice.Scissors)
+            {
+                GameImages.DrawScissors(40, 40);
+            }
+            else if (choice == GameChoice.Rock)
+            {
+                GameImages.DrawRock(40, 40);
+            }
+            else if (choice == GameChoice.Paper)
+            {
+                GameImages.DrawPaper(40, 40);
+            }
         }
 
-        public void ShowRoundScores()
-        {
+            public void ShowRoundScores()
+            {
+                add.Human.Score
+                    add.Computer.Score
+
+
+            }
+
+            public void ShowWinner()
+            {
+                if (game.Human.Score > game.Computer.Score)
+                {
+                    game.Winner = game.Human;
+                }
+                else if (game.Computer.Score > game.Human.Score)
+                {
+                    game.Winner = game.Computer;
+                }
+            }
+
+            public void EndGame()
+            {
+
+            }
+
+
+
+
 
         }
-
-        public void ShowWinner()
-        {
-
-        }
-
-        public void EndGame()
-        {
-
-        }
-
-
-
-
-
     }
 }

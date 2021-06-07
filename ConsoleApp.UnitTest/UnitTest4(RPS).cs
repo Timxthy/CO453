@@ -37,7 +37,7 @@ namespace ConsoleApp.UnitTest
 
             for (int i = 0; i < 10000; i++)
             {
-                game.MakeComputerchoice();
+                game.MakeComputerChoice();
                 int choiceNo = (int)game.Computer.Choice;
                 choices[choiceNo]++;
 

@@ -22,6 +22,8 @@ namespace ConsoleAppProject.App06
 
         public Player Winner { get; set; }
 
+        public Player Draw { get; set; }
+
 
         public GameChoice ComputerChoice { get; set; }
 
@@ -77,7 +79,7 @@ namespace ConsoleAppProject.App06
             else Winner = null;
         }
 
-        public void MakeComputerchoice()
+        public void MakeComputerChoice()
         {
             int choice = generator.Next(1,4);
 
@@ -92,14 +94,65 @@ namespace ConsoleAppProject.App06
 
         }
 
+
+        /// <summary>
+        /// increasing score - add combinations
+        /// </summary>
         public void ScoreRound()
         {
             if(Human.Choice == GameChoice.Rock && Computer.Choice == GameChoice.Paper)
             {
                 Computer.Score += 2;
-                Winner = Computer;
+                Winner = Computer; 
 
             }
+            else if (Human.Choice == GameChoice.Rock && Computer.Choice == GameChoice.Scissors)
+            {
+                Human.Score += 2;
+                Winner = Human;
+
+            }
+            else if(Human.Choice == GameChoice.Rock && Computer.Choice == GameChoice.Rock)
+            {
+                Computer.Score += 1;
+                Human.Score += 1;
+                Winner = Draw;
+
+            }
+            else if (Human.Choice == GameChoice.Paper && Computer.Choice == GameChoice.Paper)
+            {
+                Computer.Score += 1;
+                Human.Score += 1;
+                Winner = Draw;
+            }
+            else if (Human.Choice == GameChoice.Scissors && Computer.Choice == GameChoice.Scissors)
+            {
+                Computer.Score += 1;
+                Human.Score += 1;
+                Winner = Draw;
+            }
+            else if (Human.Choice == GameChoice.Paper && Computer.Choice == GameChoice.Scissors)
+            {
+                Computer.Score += 2;
+                Winner = Computer;
+            }
+            else if (Human.Choice == GameChoice.Paper && Computer.Choice == GameChoice.Rock)
+            {
+                Human.Score += 2;
+                Winner = Human;
+            }
+            else if (Human.Choice == GameChoice.Scissors && Computer.Choice == GameChoice.Rock)
+            {
+                Computer.Score += 2;
+                Winner = Computer;
+            }
+            else if (Human.Choice == GameChoice.Scissors && Computer.Choice == GameChoice.Paper)
+            {
+                Human.Score += 2;
+                Winner = Human;
+
+            }
+
             if (Round < LastRound) Round++;
             else End();
 
