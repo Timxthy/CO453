@@ -41,7 +41,7 @@ namespace ConsoleAppProject.App06
                 DisplayChoice(game.Human.Choice);
 
                 game.MakeComputerChoice();
-                ShowComputerChoice(game.Computer.Choice);
+                ///ShowComputerChoice(game.Computer.Choice);
 
                 game.ScoreRound();
 
@@ -124,35 +124,36 @@ namespace ConsoleAppProject.App06
             }
         }
 
-            public void ShowRoundScores()
-            {
-                add.Human.Score
-                    add.Computer.Score
-
-
-            }
-
-            public void ShowWinner()
-            {
-                if (game.Human.Score > game.Computer.Score)
-                {
-                    game.Winner = game.Human;
-                }
-                else if (game.Computer.Score > game.Human.Score)
-                {
-                    game.Winner = game.Computer;
-                }
-            }
-
-            public void EndGame()
-            {
-
-            }
-
-
-
+        public void ShowRoundScores()
+        {
+            ///add.Human.Score;
+            ///add.Computer.Score;
 
 
         }
+
+        public void ShowWinner()
+        {
+            if (game.Human.Score > game.Computer.Score)
+            {
+                game.Winner = game.Human;
+            }
+            else if (game.Computer.Score > game.Human.Score)
+            {
+                game.Winner = game.Computer;
+            }
+        }
+
+        public void EndGame()
+        {
+
+        }
+
+
+
+
+
     }
-}
+
+}    
+

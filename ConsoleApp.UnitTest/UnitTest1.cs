@@ -40,10 +40,10 @@ namespace ConsoleApp.UnitTest
         [TestMethod]
         public void TestMilestoMeters()
         {
-            DC.miles = 15;
+            DC.miles = 2;
             DC.CalculateMeters();
             DC.OutputMeters();
-            Assert.AreEqual(24140.1, DC.meters);
+            Assert.AreEqual(3218.68, DC.meters);
 
 
         }
