@@ -43,7 +43,7 @@ namespace ConsoleApp.UnitTest
             DC.miles = 2;
             DC.CalculateMeters();
             DC.OutputMeters();
-            Assert.AreEqual(3218.68, DC.meters);
+            Assert.AreEqual(3218.69, DC.meters);
 
 
         }
