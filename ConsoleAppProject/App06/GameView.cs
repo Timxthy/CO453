@@ -146,7 +146,24 @@ namespace ConsoleAppProject.App06
 
         public void EndGame()
         {
+            string[] choices = new string[]
+            {
+                "Quit", "Play Again"
+            };
+            Console.WriteLine("Game has now Ended. Select whether " +
+                             "     you would like to quit or play again.");
+            bool wantToQuit = false;
+            do
+            {
+                
+                int choice = ConsoleHelper.MakeChoice(choices);
+                switch (choice)
+                {
+                    case 1: wantToQuit = true; break;
+                    case 2: PlayGame(); break;
 
+                }
+            } while (!wantToQuit);
         }
 
 

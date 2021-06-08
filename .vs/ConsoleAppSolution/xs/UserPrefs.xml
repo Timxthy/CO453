@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{C0C498FD-1AE4-4CE0-A050-C1E08874D1C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/App06/Game.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleAppProject/Program.cs">
     <Files>
-      <File FileName="ConsoleApp.UnitTest/UnitTest2.cs" Line="15" Column="12" />
       <File FileName="ConsoleAppProject/App06/GameImages.cs" Line="1" Column="1" />
-      <File FileName="ConsoleAppProject/App06/Game.cs" Line="97" Column="48" />
+      <File FileName="ConsoleAppProject/App06/Game.cs" Line="157" Column="22" />
       <File FileName="ConsoleAppProject/Program.cs" Line="78" Column="34" />
-      <File FileName="ConsoleAppProject/App06/GamePlayer.cs" Line="1" Column="1" />
-      <File FileName="ConsoleApp.UnitTest/UnitTest1.cs" Line="1" Column="1" />
       <File FileName="ConsoleApp.UnitTest/UnitTest3.cs" Line="23" Column="9" NotebookId="1" IsPinned="True" />
       <File FileName="ConsoleAppProject/App06/GameChoice.cs" Line="9" Column="13" NotebookId="1" />
       <File FileName="ConsoleAppProject/App06/Player.cs" Line="14" Column="1" NotebookId="1" />
-      <File FileName="ConsoleAppProject/App06/GameView.cs" Line="114" Column="1" NotebookId="1" />
+      <File FileName="ConsoleAppProject/App06/GameView.cs" Line="158" Column="17" NotebookId="1" />
       <File FileName="ConsoleApp.UnitTest/UnitTest4(RPS).cs" Line="51" Column="10" NotebookId="1" />
+      <File FileName="ConsoleAppProject/App03/StudentGrades.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,14 +22,25 @@
               <Node name="App03" expanded="True" />
               <Node name="App04" expanded="True" />
               <Node name="App05" expanded="True" />
-              <Node name="App06" expanded="True">
-                <Node name="Game.cs" selected="True" />
-              </Node>
+              <Node name="App06" expanded="True" />
+              <Node name="Diagrams" expanded="True" />
               <Node name="Helpers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="WebApps" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ConsoleAppSolution" expanded="True">
+            <Node name="ConsoleApp.UnitTest" expanded="True">
+              <Node name="ConsoleApp.UnitTest" expanded="True">
+                <Node name="TestDistanceConverter" selected="True" />
               </Node>
             </Node>
           </Node>
