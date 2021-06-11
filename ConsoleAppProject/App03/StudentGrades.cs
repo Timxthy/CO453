@@ -170,12 +170,7 @@ namespace ConsoleAppProject.App03
 
 
 
-        internal void TestGradesEnumeration()
-        {
-
-
-
-        }
+        
 
 
 
